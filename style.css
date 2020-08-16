@@ -1,0 +1,52 @@
+body{ 
+	background: url(bg2.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+.jumbotron {
+	background:transparent;
+}
+.display ,.lead{
+	text-align: center;
+	text-shadow: 0 0 6px #FF0000;
+	margin: 10px;
+	color: #1B1921;
+	font-family: 'PT Serif', serif;
+	font-weight: bolder;
+}
+.para{
+	margin: 30px;
+	border: double;
+	font-size: 30px;
+	color: #1B1921;
+	font-family: 'Nunito', sans-serif;
+	font-style: fantasy;
+	/*background: transparent;*/
+}
+.buffer {
+  height: 1rem;
+}
+
+.btn {
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+}
+
+.btn-primary {
+  background-color: #F05F44;
+  border-color: #F05F44;
+}
+
+.btn-primary:hover {
+  background-color: #ee4b08;
+  border-color: #ee4b08;
+  border-width: 4px;
+}
+
+.btn-xl {
+  padding: 1rem 2rem;
+}
